@@ -1,0 +1,5 @@
+Sentiment analysis is the task of identifying and extracting the emotional tone or attitude of a text, such as positive 😊, negative 😠, or neutral 😐. In this project, I compared two different methods for performing sentiment analysis on a dataset of movie reviews: the VADER method and the RoBERTa model.
+
+The VADER method is a rule-based approach that uses a lexicon of words and phrases with predefined polarity scores. It also considers the intensity, negation, and context of the words to compute the overall sentiment score of a text. The RoBERTa model is a pre-trained transformer model from Hugging Face that uses a large corpus of text and a self-attention mechanism to learn the semantic representations of words and sentences. It can be fine-tuned on a specific task such as sentiment analysis using a labeled dataset.
+
+I applied both methods to the same dataset of amazon reviews and evaluated their performance. The results showed that the RoBERTa model outperformed the VADER method on all metrics, indicating that the RoBERTa model can capture more complex and nuanced aspects of sentiment than the VADER method.
